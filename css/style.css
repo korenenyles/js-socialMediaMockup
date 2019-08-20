@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,14 +73,14 @@ ul li a:hover{
     position: relative;
 
     padding-right: 135px;
-    margin-top: 50px;
+    margin-top: 38px;
     padding-top: 5px;
 }
 
 #profile{
     padding-top: 50px;
     width: 400px;
-    height: 100px;
+    height: 90px;
     
 }
 
@@ -87,4 +88,52 @@ ul li a:hover{
     float: right;
     padding-right: 145px;
 
+}
+#about {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+
+   
+
+
+#post {
+    border: 1px solid purple;
+    background-color: white;
+    padding: 10px;
+}
+
+.row{ 
+    
+
+}
+
+.columnLeft {
+    float: left;
+    padding-right: 5px;
+    padding-top: 100px;
+    margin-right: 5px;
+    height: 500px;
+    width: 321px;
+}
+
+.columnRight {
+    float: right;
+    padding-left: 5px;
+    padding-top: 100px;
+    margin-left: 5px;
+    height: 300px;
+    width: 505px;
+}
+
+article{
+    background-color: lightgrey;
+}
+
+.like {
+    border: lightgrey;
+    height: 20px;
+    width: 20px;
 }
