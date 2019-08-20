@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    width: 850px;
+    background-color: #254284;
+    color: white;
+    height: 180px;
+    
+    
+}
+
+#main{
+
+    height: 180px;
+    background-color: #254284;
+    float: center;
+    
+    
+}
+ ul {
+     list-style-type: none;
+    
+ }
+
+ ul li {
+     text-decoration: none;
+     display: inline-block;
+     background-color: white;
+     padding: 5px;
+     
+     
+ }
+
+ ul li a {
+     text-decoration: none;
+     color: black;
+     
+ }
+
+ul li a:hover{
+    background-color: lightgrey;
+    color: blue;
+    padding: 10px;
+}
+    
+
+#nav {
+
+    float: right;
+    margin-right: 350px;
+    
+}
+#pp { 
+    background-color: #254284;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    position: absolute;
+    
+    
+}
+
+#myname{
+    float: right;
+    position: relative;
+
+    padding-right: 135px;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+#profile{
+    padding-top: 50px;
+    width: 400px;
+    height: 100px;
+    
+}
+
+#website{
+    float: right;
+    padding-right: 145px;
+
+}
