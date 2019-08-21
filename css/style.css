@@ -92,7 +92,7 @@ ul li a:hover{
 #about {
     padding: 5px;
     background-color: white;
-    border: 1px solid red;
+   margin-left: 1px;
 }
 
 
@@ -100,15 +100,36 @@ ul li a:hover{
 
 
 #post {
-    border: 1px solid purple;
+    border: 1px solid lightgrey;
     background-color: white;
-    padding: 10px;
-}
-
-.row{ 
+    padding: 5px;
     
+}
+
+#postname{
+
+    position: relative;
+    padding-top: 10px;
+    padding-left: 75px;
+    width: 50px;
+    top: 50px;
+
 
 }
+#proPic{
+    background-color: #254284;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+    margin-left: 10px;
+    position: relative;
+  
+
+
+}
+
+
 
 .columnLeft {
     float: left;
